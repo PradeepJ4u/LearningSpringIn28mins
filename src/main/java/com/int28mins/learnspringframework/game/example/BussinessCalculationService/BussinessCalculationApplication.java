@@ -39,7 +39,7 @@ public class BussinessCalculationApplication{
 	public class BussnessCalculationService{
 		DataService dataService;
 			
-		public BussnessCalculationService(@Qualifier("MySQLService") DataService dataService) {
+		public BussnessCalculationService(DataService dataService) {
 			super();
 			System.out.println("*******" + dataService);
 			this.dataService = dataService;
