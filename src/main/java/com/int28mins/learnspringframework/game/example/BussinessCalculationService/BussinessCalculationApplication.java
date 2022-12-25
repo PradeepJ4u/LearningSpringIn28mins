@@ -2,9 +2,9 @@ package com.int28mins.learnspringframework.game.example.BussinessCalculationServ
 
 import java.util.Arrays;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
@@ -28,7 +28,7 @@ public class BussinessCalculationApplication{
 	}
 	
 	@Component
-	@Qualifier
+	@Qualifier("MySQLService")
 	public class MySQLService implements DataService{
 		public int[] retriveData() {
 			return new int[] {11,12,23,34,45}; 
