@@ -1,4 +1,4 @@
-package com.int28mins.learnspringframework.game.example.CDIContextLauncher;
+package com.int28mins.learnspringframework.game.example.f1.CDIContextLauncher;
 
 import java.util.Arrays;
 

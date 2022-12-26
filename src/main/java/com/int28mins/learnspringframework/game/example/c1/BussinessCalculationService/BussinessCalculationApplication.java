@@ -1,4 +1,4 @@
-package com.int28mins.learnspringframework.game.example.BussinessCalculationService;
+package com.int28mins.learnspringframework.game.example.c1.BussinessCalculationService;
 
 import java.util.Arrays;
 

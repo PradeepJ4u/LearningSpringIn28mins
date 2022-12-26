@@ -1,4 +1,4 @@
-package com.int28mins.learnspringframework.game.example.DependencyInjection;
+package com.int28mins.learnspringframework.game.example.b1.DependencyInjection;
 
 import java.util.Arrays;
 

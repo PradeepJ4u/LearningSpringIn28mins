@@ -1,4 +1,4 @@
-package com.int28mins.learnspringframework.game.example.Initial;
+package com.int28mins.learnspringframework.game.example.a1.Initial;
 
 import java.util.Arrays;
 

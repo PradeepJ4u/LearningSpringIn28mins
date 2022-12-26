@@ -1,4 +1,4 @@
-package com.int28mins.learnspringframework.game.example.PrePostConstruct;
+package com.int28mins.learnspringframework.game.example.e1.PrePostConstruct;
 
 import java.util.Arrays;
 
